@@ -1,0 +1,7 @@
+{
+  "users*": "/664/users$1",
+  "/events*": "/664/events$1",
+  "/donations*": "/664/donations$1",
+  "/subscribeEvents*": "/664/subscribeEvents$1",
+  "/subscribeInstitution*": "/664/subscribeInstitution$1"
+}

@@ -1,0 +1,157 @@
+{
+  "users": [
+    {
+      "name": "Lar de idosos",
+      "email": "filipe@mail.com",
+      "address": "Rua João Coelho, Bairro: Santa Clara, nº100, Cidade: Manaus",
+      "password": "$2a$10$eFmCPmPsaWpbymqbn5R/iOtIVLIhKi4kqvkZv2HYVQT7Z7IgpvXdO",
+      "type": "Institution",
+      "id": 1
+    },
+    {
+      "name": "Douglas",
+      "email": "douglas@mail.com",
+      "address": "Rua João Coelho, Bairro: Santa Clara, nº100, Cidade: Manaus",
+      "password": "$2a$10$eFmCPmPsaWpbymqbn5R/iOtIVLIhKi4kqvkZv2HYVQT7Z7IgpvXdO",
+      "type": "Voluntary",
+      "id": 2
+    },
+    {
+      "email": "sdfsdf@mail.com",
+      "password": "$2a$10$fvcHRhln1t2ocptKh2tNQe08E2vXDreQ6fblWt04wx.GEk3ZdQq0y",
+      "name-institution": "Lar de idosos",
+      "address-institution": "Rua João Coelho, Bairro: Santa Clara, nº100, Cidade: Manaus",
+      "type": "Institution",
+      "id": 3
+    },
+    {
+      "email": "colares@mail.com",
+      "password": "$2a$10$Yfd5Is/heOKAm3eHO.uvWeMu9jT6bhQ5TE9HchflVe9lGYHFUW9nu",
+      "name-institution": "Lar de idosos",
+      "address-institution": "Rua João Coelho, Bairro: Santa Clara, nº100, Cidade: Manaus",
+      "type": "Institution",
+      "id": 4
+    },
+    {
+      "email": "daniel@mail.com",
+      "password": "$2a$10$ru7BZ9U8Eh/IuY5PeRWGCO.OyjfTef7qRRgLa2mtyuAZQAkj3fMDm",
+      "name": "Daniel",
+      "address": "Rua João Coelho, Bairro: Santa Clara, nº100, Cidade: Manaus",
+      "type": "Voluntary",
+      "id": 5
+    },
+    {
+      "email": "eduardo@mail.com",
+      "password": "$2a$10$VYgI1UrfQVNiW/fLeU0ePu1LuvEjQCwpd6p.Nyk4KmHwPiS/QQUVy",
+      "name": "Eduardo",
+      "address": "Av.: Brasil, Bairro: Santa Clara, nº100, Cidade: São Paulo",
+      "type": "Voluntary",
+      "id": 6
+    }
+  ],
+  "events": [
+    {
+      "local": "Av.: Plugisi n°726",
+      "date": "27/08/2021",
+      "hour": "14:00",
+      "duration": "2h30min",
+      "event-name": "Cinema",
+      "idInstitution": 1,
+      "id": 1
+    },
+    {
+      "local": "Av.: Getulio Vargas n°726",
+      "date": "27/08/2022",
+      "hour": "15:00",
+      "duration": "2h30min",
+      "event-name": "Leitura de livros",
+      "idInstitution": 2,
+      "id": 2
+    },
+    {
+      "local": "Av.: Plugisi n°726",
+      "date": "27/08/2021",
+      "hour": "14:00",
+      "duration": "2h30min",
+      "event-name": "Cinema",
+      "idInstitution": 1,
+      "id": 3
+    }
+  ],
+  "donations": [
+    {
+      "name": "Cobertores",
+      "quantity": 6,
+      "received": 4,
+      "idInstitution": 1,
+      "id": 1
+    },
+    {
+      "name": "Travesseiros",
+      "quantity": 2,
+      "received": 0,
+      "idInstitution": 2,
+      "id": 2
+    },
+    {
+      "name": "Cobertores",
+      "quantity": 6,
+      "received": 0,
+      "idInstitution": 1,
+      "id": 3
+    }
+  ],
+  "subscribeEvents": [
+    {
+      "eventId": 1,
+      "idInstitution": 1,
+      "idUser": 1,
+      "id": 1
+    },
+    {
+      "eventId": 1,
+      "idInstitution": 2,
+      "idUser": 1,
+      "id": 2
+    },
+    {
+      "eventId": 2,
+      "idInstitution": 1,
+      "idUser": 1,
+      "id": 3
+    },
+    {
+      "eventId": 1,
+      "idInstitution": 1,
+      "idUser": 1,
+      "id": 4
+    }
+  ],
+  "subscribeInstitution": [
+    {
+      "idUser": 2,
+      "idInstitution": 1,
+      "id": 1
+    },
+    {
+      "idUser": 1,
+      "idInstitution": 1,
+      "id": 2
+    },
+    {
+      "idUser": 1,
+      "idInstitution": 2,
+      "id": 3
+    },
+    {
+      "idUser": 2,
+      "idInstitution": 2,
+      "id": 4
+    },
+    {
+      "idUser": 2,
+      "idInstitution": 1,
+      "id": 5
+    }
+  ]
+}
