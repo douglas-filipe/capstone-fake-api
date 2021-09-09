@@ -3,50 +3,68 @@
     {
       "name": "Lar de idosos",
       "email": "filipe@mail.com",
-      "address": "Rua João Coelho, Bairro: Santa Clara, nº100, Cidade: Manaus",
+      "address": "Rua João Coelho, Bairro: Santa Clara, nº100",
+      "city": "Manaus",
+      "cnpj": "56.221.804/0001-75",
       "password": "$2a$10$eFmCPmPsaWpbymqbn5R/iOtIVLIhKi4kqvkZv2HYVQT7Z7IgpvXdO",
       "type": "Institution",
-      "id": 1
+      "id": 1,
+      "about": "Lorem ipsum sit amet"
     },
     {
       "name": "Douglas",
       "email": "douglas@mail.com",
-      "address": "Rua João Coelho, Bairro: Santa Clara, nº100, Cidade: Manaus",
+      "cpf": "277.412.950-80",
+      "address": "Rua João Coelho, Bairro: Santa Clara, nº100",
+      "city": "Manaus",
       "password": "$2a$10$eFmCPmPsaWpbymqbn5R/iOtIVLIhKi4kqvkZv2HYVQT7Z7IgpvXdO",
       "type": "Voluntary",
-      "id": 2
+      "id": 2,
+      "about": "Lorem ipsum sit amet"
     },
     {
-      "email": "sdfsdf@mail.com",
-      "password": "$2a$10$fvcHRhln1t2ocptKh2tNQe08E2vXDreQ6fblWt04wx.GEk3ZdQq0y",
       "name": "Lar de idosos",
-      "address": "Rua João Coelho, Bairro: Santa Clara, nº100, Cidade: Manaus",
+      "email": "sdfsdf@mail.com",
+      "address": "Rua João Coelho, Bairro: Santa Clara, nº100",
+      "city": "São Paulo",
+      "cnpj": "56.221.804/0001-75",
+      "password": "$2a$10$fvcHRhln1t2ocptKh2tNQe08E2vXDreQ6fblWt04wx.GEk3ZdQq0y",
       "type": "Institution",
-      "id": 3
+      "id": 3,
+      "about": "Lorem ipsum sit amet"
     },
     {
-      "email": "colares@mail.com",
-      "password": "$2a$10$Yfd5Is/heOKAm3eHO.uvWeMu9jT6bhQ5TE9HchflVe9lGYHFUW9nu",
       "name": "Morada de idosos",
-      "address": "Rua João Coelho, Bairro: Santa Clara, nº100, Cidade: Manaus",
+      "email": "colares@mail.com",
+      "cnpj": "56.221.804/0001-75",
+      "address": "Rua João Coelho, Bairro: Santa Clara, nº100",
+      "city": "Rio de Janeiro",
+      "password": "$2a$10$Yfd5Is/heOKAm3eHO.uvWeMu9jT6bhQ5TE9HchflVe9lGYHFUW9nu",
       "type": "Institution",
-      "id": 4
+      "id": 4,
+      "about": "Lorem ipsum sit amet"
     },
     {
-      "email": "daniel@mail.com",
-      "password": "$2a$10$ru7BZ9U8Eh/IuY5PeRWGCO.OyjfTef7qRRgLa2mtyuAZQAkj3fMDm",
       "name": "Daniel",
-      "address": "Rua João Coelho, Bairro: Santa Clara, nº100, Cidade: Manaus",
+      "email": "daniel@mail.com",
+      "cpf": "277.412.950-80",
+      "password": "$2a$10$ru7BZ9U8Eh/IuY5PeRWGCO.OyjfTef7qRRgLa2mtyuAZQAkj3fMDm",
+      "address": "Rua João Coelho, Bairro: Santa Clara, nº100",
+      "city": "Manaus",
       "type": "Voluntary",
-      "id": 5
+      "id": 5,
+      "about": "Lorem ipsum sit amet"
     },
     {
-      "email": "eduardo@mail.com",
-      "password": "$2a$10$VYgI1UrfQVNiW/fLeU0ePu1LuvEjQCwpd6p.Nyk4KmHwPiS/QQUVy",
       "name": "Eduardo",
-      "address": "Av.: Brasil, Bairro: Santa Clara, nº100, Cidade: São Paulo",
+      "email": "eduardo@mail.com",
+      "cpf": "277.412.950-80",
+      "password": "$2a$10$VYgI1UrfQVNiW/fLeU0ePu1LuvEjQCwpd6p.Nyk4KmHwPiS/QQUVy",
+      "address": "Av.: Brasil, Bairro: Santa Clara, nº100",
+      "city": "São Paulo",
       "type": "Voluntary",
-      "id": 6
+      "id": 6,
+      "about": "Lorem ipsum sit amet"
     }
   ],
   "events": [
@@ -58,7 +76,8 @@
       "duration": "2h30min",
       "name": "Cinema",
       "idInstitution": 1,
-      "id": 1
+      "id": 1,
+      "describe": "Lorem ipsum sit amet"
     },
     {
       "nameInstitution": "Morada de idosos",
@@ -68,7 +87,8 @@
       "duration": "2h30min",
       "name": "Leitura de livros",
       "idInstitution": 4,
-      "id": 2
+      "id": 2,
+      "describe": "Lorem ipsum sit amet"
     },
     {
       "nameInstitution": "Lar de idosos",
@@ -78,7 +98,8 @@
       "duration": "2h30min",
       "name": "Cinema",
       "idInstitution": 1,
-      "id": 3
+      "id": 3,
+      "describe": "Lorem ipsum sit amet"
     }
   ],
   "donations": [
@@ -111,7 +132,7 @@
     {
       "idInstitution": 1,
       "nameInstitution": "Lar de idosos",
-      "idUser": 1,   
+      "idUser": 1,
       "id": 1,
       "idEvent": 1,
       "event": {
@@ -119,14 +140,14 @@
         "date": "27/08/2021",
         "hour": "14:00",
         "duration": "2h30min",
-        "name": "Cinema"
+        "name": "Cinema",
+        "describe": "Lorem ipsum sit amet"
       }
     },
-
     {
       "idInstitution": 4,
       "nameInstitution": "Morada de idosos",
-      "idUser": 1,   
+      "idUser": 1,
       "id": 1,
       "idEvent": 1,
       "event": {
@@ -134,14 +155,14 @@
         "date": "27/08/2021",
         "hour": "14:00",
         "duration": "2h30min",
-        "name": "Cinema"
+        "name": "Cinema",
+        "describe": "Lorem ipsum sit amet"
       }
     },
-
     {
       "idInstitution": 1,
       "nameInstitution": "Lar de idosos",
-      "idUser": 1,   
+      "idUser": 1,
       "id": 1,
       "idEvent": 1,
       "event": {
@@ -149,10 +170,10 @@
         "date": "27/08/2021",
         "hour": "14:00",
         "duration": "2h30min",
-        "name": "Cinema"
+        "name": "Cinema",
+        "describe": "Lorem ipsum sit amet"
       }
     },
-
     {
       "idInstitution": 4,
       "nameInstitution": "Morada de idosos",
@@ -161,22 +182,11 @@
       "event": {
         "local": "Av.: Getulio Vargas n°726",
         "date": "27/08/2022",
-        "hour": "15:00",
+        "hour": "15:00", 
         "duration": "2h30min",
-        "name": "Leitura de livros"
+        "name": "Leitura de livros",
+        "describe": "Lorem ipsum sit amet"
       }
     }
-  ],
-  "subscribeInstitution": [
-    {
-      "idUser": 2,
-      "idInstitution": 1,
-      "id": 1,
-      "institution": {
-        "name-institution": "Lar de idosos",
-        "address-institution": "Rua João Coelho, Bairro: Santa Clara, nº100, Cidade: Manaus",
-        "type": "Institution"
-      }
-    }
-  ]
-}
+  ] 
+} 
