@@ -112,20 +112,22 @@
 `Post /donations`
 
     {
-      "name": "Cobertores",
-      "quantity": 6,
-      "received": 0,
-      "idInstitution": 1
+        "nameInstitution": "Lar de idosos",
+        "name": "Cobertores",
+        "quantity": 6,
+        "received": 0,
+        "idInstitution": 1
     }
 
 ### Response
 
     {
-      "name": "Cobertores",
-      "quantity": 6,
-      "received": 0,
-      "idInstitution": 1,
-      "id": 3
+        "nameInstitution": "Lar de idosos",
+        "name": "Cobertores",
+        "quantity": 6,
+        "received": 0,
+        "idInstitution": 1,
+        "id": 3
     }
 
 ### Request
