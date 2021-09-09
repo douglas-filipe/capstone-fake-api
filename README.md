@@ -68,7 +68,7 @@
       "date": "27/08/2021",
       "hour": "14:00",
       "duration": "2h30min",
-      "event-name": "Cinema",
+      "name": "Cinema",
       "idInstitution": 1
     }
 
@@ -80,7 +80,7 @@
         "date": "27/08/2021",
         "hour": "14:00",
         "duration": "2h30min",
-        "event-name": "Cinema",
+        "name": "Cinema",
         "idInstitution": 1,
         "id": 3
     }
@@ -194,7 +194,7 @@
         "date": "27/08/2021",
         "hour": "14:00",
         "duration": "2h30min",
-        "event-name": "Cinema"
+        "name": "Cinema"
       }
     }
 
@@ -209,7 +209,7 @@
         "date": "27/08/2021",
         "hour": "14:00",
         "duration": "2h30min",
-        "event-name": "Cinema"
+        "name": "Cinema"
       }
     }
 
@@ -231,6 +231,6 @@
         "date": "27/08/2021",
         "hour": "14:00",
         "duration": "2h30min",
-        "event-name": "Cinema"
+        "name": "Cinema"
       }
     }

@@ -55,7 +55,7 @@
       "date": "27/08/2021",
       "hour": "14:00",
       "duration": "2h30min",
-      "event-name": "Cinema",
+      "name": "Cinema",
       "idInstitution": 1,
       "id": 1
     },
@@ -64,7 +64,7 @@
       "date": "27/08/2022",
       "hour": "15:00",
       "duration": "2h30min",
-      "event-name": "Leitura de livros",
+      "name": "Leitura de livros",
       "idInstitution": 2,
       "id": 2
     },
@@ -73,7 +73,7 @@
       "date": "27/08/2021",
       "hour": "14:00",
       "duration": "2h30min",
-      "event-name": "Cinema",
+      "name": "Cinema",
       "idInstitution": 1,
       "id": 3
     }
@@ -112,7 +112,7 @@
         "date": "27/08/2021",
         "hour": "14:00",
         "duration": "2h30min",
-        "event-name": "Cinema"
+        "name": "Cinema"
       }
     }
   ],
