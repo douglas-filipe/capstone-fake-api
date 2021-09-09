@@ -83,27 +83,30 @@
 `Post /event`
 
     {
+      "nameInstitution": "Lar de idosos",
       "local": "Av.: Plugisi n°726",
       "date": "27/08/2021",
       "hour": "14:00",
       "duration": "2h30min",
       "name": "Cinema",
-      "idInstitution": 1
+      "idInstitution": 1,
+      "describe": "Lorem ipsum sit amet"
     }
 
 
 ### Response
 
     {
-        "local": "Av.: Plugisi n°726",
-        "date": "27/08/2021",
-        "hour": "14:00",
-        "duration": "2h30min",
-        "name": "Cinema",
-        "idInstitution": 1,
-        "id": 3
+      "nameInstitution": "Lar de idosos",
+      "local": "Av.: Plugisi n°726",
+      "date": "27/08/2021",
+      "hour": "14:00",
+      "duration": "2h30min",
+      "name": "Cinema",
+      "idInstitution": 1,
+      "describe": "Lorem ipsum sit amet"
+      "id": 1
     }
-
 
 ### Request
 
