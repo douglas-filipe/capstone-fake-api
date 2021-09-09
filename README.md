@@ -24,6 +24,25 @@
     "type": "Voluntary",
     "id": 2
     }
+    
+    
+### Request
+
+`Login`
+
+`Post /login`
+
+    {
+      "email": "colares@mail.com",
+      "password": "123456"
+    }
+    
+### Response
+
+    {
+     "accessToken":     "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVkdWFyZG9AbWFpbC5jb20iLCJpYXQiOjE2MzExMTY2MTMsImV4cCI6MTYzMTEyMDIxMywic3ViIjoiNiJ9.LxASXk4wAhvXN1UO3XNfqPq6_Bm5z7NUaI7xYEw_8og"
+    }
+
 
 ### Request
 
