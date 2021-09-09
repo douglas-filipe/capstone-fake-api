@@ -114,6 +114,32 @@
         "duration": "2h30min",
         "name": "Cinema"
       }
+    },
+
+    {
+      "idInstitution": 2,
+      "idUser": 2,
+      "idEvent": 2,
+      "event": {
+        "local": "Av.: Getulio Vargas n°726",
+        "date": "27/08/2022",
+        "hour": "15:00",
+        "duration": "2h30min",
+        "name": "Leitura de livros"
+      }
+    },
+
+    {
+      "idInstitution": 2,
+      "idUser": 2,
+      "idEvent": 2,
+      "event": {
+        "local": "Av.: Getulio Vargas n°726",
+        "date": "27/08/2022",
+        "hour": "15:00",
+        "duration": "2h30min",
+        "name": "Leitura de livros"
+      }
     }
   ],
   "subscribeInstitution": [
