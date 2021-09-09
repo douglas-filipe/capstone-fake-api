@@ -188,16 +188,29 @@
     {
       "eventId": 1,
       "idInstitution": 1,
-      "idUser": 1
+      "idUser": 1,
+      "event": {
+        "local": "Av.: Plugisi n°726",
+        "date": "27/08/2021",
+        "hour": "14:00",
+        "duration": "2h30min",
+        "event-name": "Cinema"
+      }
     }
 
 ### Response
   
     {
-        "eventId": 1,
-        "idInstitution": 1,
-        "idUser": 1,
-        "id": 4
+      "eventId": 1,
+      "idInstitution": 1,
+      "idUser": 1,
+      "event": {
+        "local": "Av.: Plugisi n°726",
+        "date": "27/08/2021",
+        "hour": "14:00",
+        "duration": "2h30min",
+        "event-name": "Cinema"
+      }
     }
 
 ### Request
@@ -208,29 +221,16 @@
 
 ### Response
 
-    [
     {
-        "eventId": 1,
-        "idInstitution": 1,
-        "idUser": 1,
-        "id": 1
-    },
-    {
-        "eventId": 1,
-        "idInstitution": 2,
-        "idUser": 1,
-        "id": 2
-    },
-    {
-        "eventId": 2,
-        "idInstitution": 1,
-        "idUser": 1,
-        "id": 3
-    },
-    {
-        "eventId": 1,
-        "idInstitution": 1,
-        "idUser": 1,
-        "id": 4
+      "idInstitution": 1,
+      "idUser": 1,
+      "id": 1,
+      "idEvent": 1,
+      "event": {
+        "local": "Av.: Plugisi n°726",
+        "date": "27/08/2021",
+        "hour": "14:00",
+        "duration": "2h30min",
+        "event-name": "Cinema"
+      }
     }
-    ]

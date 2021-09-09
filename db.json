@@ -103,55 +103,29 @@
   ],
   "subscribeEvents": [
     {
-      "eventId": 1,
       "idInstitution": 1,
       "idUser": 1,
-      "id": 1
-    },
-    {
-      "eventId": 1,
-      "idInstitution": 2,
-      "idUser": 1,
-      "id": 2
-    },
-    {
-      "eventId": 2,
-      "idInstitution": 1,
-      "idUser": 1,
-      "id": 3
-    },
-    {
-      "eventId": 1,
-      "idInstitution": 1,
-      "idUser": 1,
-      "id": 4
+      "id": 1,
+      "idEvent": 1,
+      "event": {
+        "local": "Av.: Plugisi n°726",
+        "date": "27/08/2021",
+        "hour": "14:00",
+        "duration": "2h30min",
+        "event-name": "Cinema"
+      }
     }
   ],
   "subscribeInstitution": [
     {
       "idUser": 2,
       "idInstitution": 1,
-      "id": 1
-    },
-    {
-      "idUser": 1,
-      "idInstitution": 1,
-      "id": 2
-    },
-    {
-      "idUser": 1,
-      "idInstitution": 2,
-      "id": 3
-    },
-    {
-      "idUser": 2,
-      "idInstitution": 2,
-      "id": 4
-    },
-    {
-      "idUser": 2,
-      "idInstitution": 1,
-      "id": 5
+      "id": 1,
+      "institution": {
+        "name-institution": "Lar de idosos",
+        "address-institution": "Rua João Coelho, Bairro: Santa Clara, nº100, Cidade: Manaus",
+        "type": "Institution"
+      }
     }
   ]
 }
