@@ -27,7 +27,7 @@
     {
       "email": "colares@mail.com",
       "password": "$2a$10$Yfd5Is/heOKAm3eHO.uvWeMu9jT6bhQ5TE9HchflVe9lGYHFUW9nu",
-      "name": "Lar de idosos",
+      "name": "Morada de idosos",
       "address": "Rua João Coelho, Bairro: Santa Clara, nº100, Cidade: Manaus",
       "type": "Institution",
       "id": 4
@@ -51,6 +51,7 @@
   ],
   "events": [
     {
+      "nameInstitution": "Lar de idosos",
       "local": "Av.: Plugisi n°726",
       "date": "27/08/2021",
       "hour": "14:00",
@@ -60,15 +61,17 @@
       "id": 1
     },
     {
+      "nameInstitution": "Morada de idosos",
       "local": "Av.: Getulio Vargas n°726",
       "date": "27/08/2022",
       "hour": "15:00",
       "duration": "2h30min",
       "name": "Leitura de livros",
-      "idInstitution": 2,
+      "idInstitution": 4,
       "id": 2
     },
     {
+      "nameInstitution": "Lar de idosos",
       "local": "Av.: Plugisi n°726",
       "date": "27/08/2021",
       "hour": "14:00",
@@ -80,6 +83,7 @@
   ],
   "donations": [
     {
+      "nameInstitution": "Lar de idosos",
       "name": "Cobertores",
       "quantity": 6,
       "received": 4,
@@ -87,13 +91,15 @@
       "id": 1
     },
     {
+      "nameInstitution": "Morada de idosos",
       "name": "Travesseiros",
       "quantity": 2,
       "received": 0,
-      "idInstitution": 2,
+      "idInstitution": 4,
       "id": 2
     },
     {
+      "nameInstitution": "Lar de idosos",
       "name": "Cobertores",
       "quantity": 6,
       "received": 0,
@@ -104,6 +110,7 @@
   "subscribeEvents": [
     {
       "idInstitution": 1,
+      "nameInstitution": "Lar de idosos",
       "idUser": 1,
       "id": 1,
       "idEvent": 1,
@@ -117,20 +124,8 @@
     },
 
     {
-      "idInstitution": 2,
-      "idUser": 2,
-      "idEvent": 2,
-      "event": {
-        "local": "Av.: Getulio Vargas n°726",
-        "date": "27/08/2022",
-        "hour": "15:00",
-        "duration": "2h30min",
-        "name": "Leitura de livros"
-      }
-    },
-
-    {
-      "idInstitution": 2,
+      "idInstitution": 4,
+      "nameInstitution": "Morada de idosos",
       "idUser": 2,
       "idEvent": 2,
       "event": {
