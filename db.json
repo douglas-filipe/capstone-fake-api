@@ -111,7 +111,37 @@
     {
       "idInstitution": 1,
       "nameInstitution": "Lar de idosos",
-      "idUser": 1,
+      "idUser": 1,   
+      "id": 1,
+      "idEvent": 1,
+      "event": {
+        "local": "Av.: Plugisi n°726",
+        "date": "27/08/2021",
+        "hour": "14:00",
+        "duration": "2h30min",
+        "name": "Cinema"
+      }
+    },
+
+    {
+      "idInstitution": 4,
+      "nameInstitution": "Morada de idosos",
+      "idUser": 1,   
+      "id": 1,
+      "idEvent": 1,
+      "event": {
+        "local": "Av.: Plugisi n°726",
+        "date": "27/08/2021",
+        "hour": "14:00",
+        "duration": "2h30min",
+        "name": "Cinema"
+      }
+    },
+
+    {
+      "idInstitution": 1,
+      "nameInstitution": "Lar de idosos",
+      "idUser": 1,   
       "id": 1,
       "idEvent": 1,
       "event": {
