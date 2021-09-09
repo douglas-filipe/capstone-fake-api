@@ -19,16 +19,16 @@
     {
       "email": "sdfsdf@mail.com",
       "password": "$2a$10$fvcHRhln1t2ocptKh2tNQe08E2vXDreQ6fblWt04wx.GEk3ZdQq0y",
-      "name-institution": "Lar de idosos",
-      "address-institution": "Rua João Coelho, Bairro: Santa Clara, nº100, Cidade: Manaus",
+      "name": "Lar de idosos",
+      "address": "Rua João Coelho, Bairro: Santa Clara, nº100, Cidade: Manaus",
       "type": "Institution",
       "id": 3
     },
     {
       "email": "colares@mail.com",
       "password": "$2a$10$Yfd5Is/heOKAm3eHO.uvWeMu9jT6bhQ5TE9HchflVe9lGYHFUW9nu",
-      "name-institution": "Lar de idosos",
-      "address-institution": "Rua João Coelho, Bairro: Santa Clara, nº100, Cidade: Manaus",
+      "name": "Lar de idosos",
+      "address": "Rua João Coelho, Bairro: Santa Clara, nº100, Cidade: Manaus",
       "type": "Institution",
       "id": 4
     },
